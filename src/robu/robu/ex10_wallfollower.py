@@ -57,7 +57,7 @@ class WallFollower(Node):
         self.turning_speed_wf_fast = 1.0
 
         self.dist_thresh_wf = 0.3
-        self.dist_hysteresis_wf = 0.02
+        self.dist_hysteresis_wf = 0.02 #dere
 
         self.dist_laser_offset = 0.03
         self.valid_lidar_data = False
