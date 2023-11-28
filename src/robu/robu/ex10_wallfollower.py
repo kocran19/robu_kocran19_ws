@@ -14,13 +14,13 @@ from enum import IntEnum
 
 
 ROBOT_DIRECTION_FRONT_INDEX = 0
-ROBOT_DIRECTION_RIGHT_FRONT_INDEX = 45
-ROBOT_DIRECTION_RIGHT_INDEX = 90
-ROBOT_DIREKTION_RIGHT_REAR_INDEX = 135
+ROBOT_DIRECTION_LEFT_FRONT_INDEX = 60
+ROBOT_DIRECTION_LEFT_INDEX = 90
+ROBOT_DIREKTION_LEFT_REAR_INDEX = 120
 ROBOT_DIRECTION_REAR_INDEX = 180
-ROBOT_DIREKTION_LEFT_REAR_INDEX = 225
-ROBOT_DIRECTION_LEFT_INDEX = 270
-ROBOT_DIRECTION_LEFT_FRONT_INDEX = 315
+ROBOT_DIREKTION_RIGHT_REAR_INDEX = 240
+ROBOT_DIRECTION_RIGHT_INDEX = 270
+ROBOT_DIRECTION_RIGHT_FRONT_INDEX = 300
 
 
 
@@ -39,7 +39,7 @@ class WallFollower(Node):
         super()._init__('WallFollower')
         self.scan_subscriber = self.create_subscription(LaserScan,"\scan", self.scan_callback, qos_profile_sensor_data)
 
-        self.cmd_vel_publisher = self.create_publisher(Twist, "\cmd_vel", qos_profile_sensor_data)
+        self.cmd_vel_publisher = self.create_publisher(Twist, "\cmd_vel", 10)
 
         self.left_dist = 9999999.9 #Intialisiere den Variable auf einen ungültigen Wert
         self.leftfront_dist = 9999999.9
@@ -123,13 +123,10 @@ class WallFollower(Node):
 
         print(msg)
         self.cmd_vel_publisher.publish(msg)
-
-    def align_left(self):
-        fl = self.distances[ROBOT_DIRECTION_LEFT_FRONT_INDEX]
-        lr = self.distances[ROBOT_DIREKTION_LEFT_REAR_INDEX]
+qos_profile_sensor_data
 
         if(fl-lr) > self.dist_hysteresis_wf:
-            return 1 #turning left
+            return 1 #turning leftqos_profile_sensor_data
         elif (fl-lr) > self.dist_hysteresis_wf:
             return -1 #turning right
         else:
