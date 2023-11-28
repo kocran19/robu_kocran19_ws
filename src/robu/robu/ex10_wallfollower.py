@@ -25,7 +25,7 @@ ROBOT_DIRECTION_LEFT_FRONT_INDEX = 315
 
 
 
-
+#huhu
 class WallFollowerStates(IntEnum):
     WF_STATE_INVALID = -1,
     WF_STATE_DETECTWALL = 0,
