@@ -66,7 +66,7 @@ class WallFollower(Node):
 
     def timer_callback(self):
         if self.valid_lidar_data: #Beim erstmaligen Aufruf liegen noch keine LiDAR Daten vor
-            self.follow.wall()
+            self.follow_wall()
 
     def follow_wall(self):
         msg =  Twist()
@@ -123,7 +123,7 @@ class WallFollower(Node):
 
         print(msg)
         self.cmd_vel_publisher.publish(msg)
-qos_profile_sensor_data
+        qos_profile_sensor_data
 
         if(fl-lr) > self.dist_hysteresis_wf:
             return 1 #turning leftqos_profile_sensor_data
