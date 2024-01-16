@@ -1,0 +1,45 @@
+[0.000000] (-) TimerEvent: {}
+[0.001196] (robu) JobQueued: {'identifier': 'robu', 'dependencies': OrderedDict()}
+[0.001241] (robu) JobStarted: {'identifier': 'robu'}
+[0.098728] (-) TimerEvent: {}
+[0.199092] (-) TimerEvent: {}
+[0.299511] (-) TimerEvent: {}
+[0.400195] (-) TimerEvent: {}
+[0.501069] (-) TimerEvent: {}
+[0.603268] (-) TimerEvent: {}
+[0.704093] (-) TimerEvent: {}
+[0.804907] (-) TimerEvent: {}
+[0.905796] (-) TimerEvent: {}
+[1.006574] (-) TimerEvent: {}
+[1.092064] (robu) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/robu', 'build', '--build-base', '/home/robu/work/robu_kocran19_ws/build/robu/build', 'install', '--record', '/home/robu/work/robu_kocran19_ws/build/robu/install.log', '--single-version-externally-managed'], 'cwd': '/home/robu/work/robu_kocran19_ws/src/robu', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_US:', 'USER': 'robu', 'LC_TIME': 'de_AT.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/robu', 'OLDPWD': '/home/robu/work', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_AT.UTF-8', 'MANAGERPID': '864', 'SYSTEMD_EXEC_PID': '1202', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '6917', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'robu', 'JOURNAL_STREAM': '8:34268', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robu-desktop:@/tmp/.ICE-unix/1180,unix/robu-desktop:/tmp/.ICE-unix/1180', 'INVOCATION_ID': '7dda30252075409aa5fe72aab4a99c8a', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_AT.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'LC_TELEPHONE': 'de_AT.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NOR8G2', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'LC_NAME': 'de_AT.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:29464ced-8c2e-4dcc-83d2-5203b659aef4', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_AT.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'de_AT.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robu/work/robu_kocran19_ws/build/robu', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LC_NUMERIC': 'de_AT.UTF-8', 'LC_PAPER': 'de_AT.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/robu/work/robu_kocran19_ws/build/robu/prefix_override:/home/robu/work/robu_kocran19_ws/install/robu/lib/python3.10/site-packages:'}, 'shell': False}
+[1.108343] (-) TimerEvent: {}
+[1.209629] (-) TimerEvent: {}
+[1.310436] (-) TimerEvent: {}
+[1.411752] (-) TimerEvent: {}
+[1.512556] (-) TimerEvent: {}
+[1.527182] (robu) StdoutLine: {'line': b'running egg_info\n'}
+[1.529084] (robu) StdoutLine: {'line': b'writing ../../build/robu/robu.egg-info/PKG-INFO\n'}
+[1.529678] (robu) StdoutLine: {'line': b'writing dependency_links to ../../build/robu/robu.egg-info/dependency_links.txt\n'}
+[1.531611] (robu) StdoutLine: {'line': b'writing entry points to ../../build/robu/robu.egg-info/entry_points.txt\n'}
+[1.532349] (robu) StdoutLine: {'line': b'writing requirements to ../../build/robu/robu.egg-info/requires.txt\n'}
+[1.532994] (robu) StdoutLine: {'line': b'writing top-level names to ../../build/robu/robu.egg-info/top_level.txt\n'}
+[1.536354] (robu) StdoutLine: {'line': b"reading manifest file '../../build/robu/robu.egg-info/SOURCES.txt'\n"}
+[1.540791] (robu) StdoutLine: {'line': b"writing manifest file '../../build/robu/robu.egg-info/SOURCES.txt'\n"}
+[1.541270] (robu) StdoutLine: {'line': b'running build\n'}
+[1.541488] (robu) StdoutLine: {'line': b'running build_py\n'}
+[1.542619] (robu) StdoutLine: {'line': b'running install\n'}
+[1.544268] (robu) StdoutLine: {'line': b'running install_lib\n'}
+[1.554488] (robu) StdoutLine: {'line': b'running install_data\n'}
+[1.555430] (robu) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.557654] (robu) StdoutLine: {'line': b"removing '/home/robu/work/robu_kocran19_ws/install/robu/lib/python3.10/site-packages/robu-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.565018] (robu) StdoutLine: {'line': b'Copying ../../build/robu/robu.egg-info to /home/robu/work/robu_kocran19_ws/install/robu/lib/python3.10/site-packages/robu-0.0.0-py3.10.egg-info\n'}
+[1.568414] (robu) StdoutLine: {'line': b'running install_scripts\n'}
+[1.609089] (robu) StdoutLine: {'line': b'Installing mypublisher script to /home/robu/work/robu_kocran19_ws/install/robu/lib/robu\n'}
+[1.610591] (robu) StdoutLine: {'line': b'Installing mysubscriber script to /home/robu/work/robu_kocran19_ws/install/robu/lib/robu\n'}
+[1.612642] (robu) StdoutLine: {'line': b'Installing wallfollower script to /home/robu/work/robu_kocran19_ws/install/robu/lib/robu\n'}
+[1.612821] (-) TimerEvent: {}
+[1.614307] (robu) StdoutLine: {'line': b"writing list of installed files to '/home/robu/work/robu_kocran19_ws/build/robu/install.log'\n"}
+[1.700018] (robu) CommandEnded: {'returncode': 0}
+[1.713169] (-) TimerEvent: {}
+[1.728629] (robu) JobEnded: {'identifier': 'robu', 'rc': 0}
+[1.730286] (-) EventReactorShutdown: {}
