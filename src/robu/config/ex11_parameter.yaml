@@ -1,0 +1,11 @@
+/MinimalParameter:
+  ros__parameters:
+    dist_hysteresis_wf: 0.02
+    dist_thresh_wf: 0.3
+    forward_speed_wf_fast: 0.1
+    forward_speed_wf_slow: 0.05
+    my_parameter: null
+    turning_speed_wf_fast: 1.0
+    turning_speed_wf_slow: 0.1
+    use_sim_time: false
+
